@@ -1,9 +1,0 @@
-# Change to the votecounterproject directory
-cd src/votecounterproject
-
-# Compile Java files, directing output to the bin folder in the root directory
-javac -d ../../bin *.java
-
-# Run the main class from the bin folder in the root directory
-java -cp ../../bin votecounterproject.VoteCounterProject
-
